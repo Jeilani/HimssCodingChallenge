@@ -1,0 +1,45 @@
+.Individual-report{
+    height: 20%;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+    .Individual-report div{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .Individual-report button{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+        .fake-link{
+            text-decoration: underline;
+            color: blue;
+        }
+        .block{
+            background-color: rgb(253, 107, 107);
+            transition-duration: .2s;
+        }
+            .block:hover{
+                background-color: rgb(131, 49, 49);
+                transition-duration: .2s;
+            }
+        .resolve{
+            background-color: rgba(35, 189, 35);
+            transition-duration: .2s;
+        }
+            .resolve:hover{
+                background-color: rgb(20, 107, 20);
+                transition-duration: .2s;
+            }
